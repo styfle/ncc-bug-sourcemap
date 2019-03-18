@@ -1,10 +1,13 @@
-function hello(name: string) {
-	if (name === 'throw') {
-		throw new Error('Hello Error :)');
+function print(str: string) {
+	if (str === 'throw') {
+		throw new Error('You said throw and I said how high?');
 	}
-	console.log('hello ' + name);
+	console.log(str);
 }
 
-hello('start');
-setTimeout(() => hello('end'), 3000);
-setTimeout(() => hello('throw'), 5000);
+function main() {
+    print('running...will throw soon');
+    print('throw');
+}
+
+main();
