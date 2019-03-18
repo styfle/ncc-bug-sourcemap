@@ -1,0 +1,14 @@
+{
+    "name": "ncc-bug-sourcemap",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "build": "tsc"
+    },
+    "devDependencies": {
+      "@types/node": "^11.11.3",
+      "typescript": "^3.3.3333"
+    }
+  }
+  
